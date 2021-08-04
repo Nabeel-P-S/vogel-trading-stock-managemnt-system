@@ -1,0 +1,132 @@
+body {
+
+  background-image:  url("store_images/boy.jpg");
+/*  background-image:  url("store_images/boy1.jpg"); */      /* lower resolution background image*/
+
+
+ background-size:100vw;
+ /*background-color: #EDEBEE;*/
+  position: fixed;
+
+}
+span{font-weight: bold;}
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content1 a {
+  float: none;
+  cursor: pointer;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left
+}
+
+.dropdown-content1 a:hover {
+  background-color: #ddd;
+}
+
+.dropdown1:hover .dropdown-content1 {
+  display: block;
+}
+.tabs
+{
+  background-color: rgb(9, 165, 98);
+  height: 6vw;
+  width: 10vw; 
+  margin-top: 2vw;
+  border-radius: 5px;
+  color: white;
+   text-align: center;
+    font-weight: bold;
+    font-size: 2vw;
+     
+}
+
+.store
+{
+  cursor: pointer;
+}
+
+.dropdown1 {
+ float: left;
+
+  overflow: hidden;
+}
+
+.dropdown1 .dropbtn1 {
+  font-size: 1.2vw;  
+  border: none;
+  outline: none;
+ color: white;
+  font-weight: bold;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar1 {
+  overflow: hidden;
+  text-align: right;
+  background-image: linear-gradient(90deg,  #25B7C4,#25C481);
+  width: 60vw;
+ margin-left: 5vw;
+border-radius: 20px;
+
+}
+
+.navbar1 a {
+  float: left;
+  font-size: 1.2vw;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  /*padding: 15px 16px;*/
+  text-decoration: none;
+}
+.dropbtn1
+{
+
+}
+.navbar1 a:hover, .dropdown1:hover  {
+  background-color: #002437;
+  color: white;
+  /*font-size: 1.3vw;*/
+  /*font-weight: bold;*/
+}
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content1 a {
+  float: none;
+  cursor: pointer;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left
+}
+
+.dropdown-content1 a:hover {
+  background-color: #ddd;
+}
+
+.dropdown1:hover .dropdown-content1 {
+  display: block;
+  color:green;
+}
