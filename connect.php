@@ -2,7 +2,7 @@
 <?php
 // $conn=new mysqli('localhost','root','','stock2');
 // $conn=new mysqli("localhost","id11392873_vogel","x-L+sA(kWas@G7Wy","id11392873_stock2");
-$conn=new mysqli('localhost','root','','stock2');
+$conn=new mysqli('localhost','root','','vogel-stock');
 // $conn=new mysqli("localhost","id11392873_vogel","x-L+sA(kWas@G7Wy","id11392873_stock2");
 
 // id11392873_vogel
